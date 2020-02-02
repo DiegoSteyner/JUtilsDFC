@@ -1,0 +1,233 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>JUtilsDFC</groupId>
+	<artifactId>JUtilsDFC</artifactId>
+	<version>0.0.1</version>
+	<name>JUtilsDFC</name>
+	<description>JUtilsDFC</description>
+
+	<repositories>
+		<repository>  
+           <id>Mvn Repository</id>  
+           <url>http://mvnrepository.com/artifact</url>  
+      	</repository>
+	</repositories>
+	
+	<dependencies>
+		
+		<!-- Javaee -->
+        
+		<dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-api</artifactId>
+			<version>6.0</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>2.5</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20140107</version>
+		</dependency>
+
+		<!-- Diversas -->
+		
+		<dependency>
+			<groupId>commons-collections</groupId>
+			<artifactId>commons-collections</artifactId>
+			<version>3.2.1</version>
+		</dependency>
+
+		<dependency>
+		    <groupId>log4j</groupId>
+		    <artifactId>log4j</artifactId>
+		    <version>1.2.5</version>
+		</dependency>
+		
+		<dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.7</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>javax.json</groupId>
+            <artifactId>javax.json-api</artifactId>
+            <version>1.0</version>
+          </dependency>
+        
+        <dependency>
+            <groupId>org.glassfish</groupId>
+            <artifactId>javax.json</artifactId>
+            <version>1.0.4</version>
+        </dependency> 
+		
+		<dependency>
+            <groupId>com.nimbusds</groupId>
+            <artifactId>nimbus-jose-jwt</artifactId>
+            <version>4.27</version>
+        </dependency>
+        
+		<dependency>
+		    <groupId>com.itextpdf</groupId>
+		    <artifactId>itextpdf</artifactId>
+		    <version>5.5.9</version>
+		</dependency>
+		
+		<!-- DFC -->
+		
+		<dependency>
+		    <groupId>com.documentum.dfc</groupId>
+		    <artifactId>dfc</artifactId>
+		    <version>6.7</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>com.documentum.dfc</groupId>
+		    <artifactId>aspectjrt</artifactId>
+		    <version>6.7</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>com.documentum.dfc</groupId>
+		    <artifactId>bofirm</artifactId>
+		    <version>6.7</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>com.documentum.dfc</groupId>
+		    <artifactId>bpm</artifactId>
+		    <version>6.7</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>com.documentum.dfc</groupId>
+		    <artifactId>bpm-cache</artifactId>
+		    <version>6.7</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>com.documentum.dfc</groupId>
+		    <artifactId>bpm-cache-ext</artifactId>
+		    <version>6.7</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>com.documentum.dfc</groupId>
+		    <artifactId>bpm-commons</artifactId>
+		    <version>6.7</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>com.documentum.dfc</groupId>
+		    <artifactId>bpm-model-impl</artifactId>
+		    <version>6.7</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>com.documentum.dfc</groupId>
+		    <artifactId>bpm_infra</artifactId>
+		    <version>6.7</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>com.documentum.dfc</groupId>
+		    <artifactId>bpmmodules</artifactId>
+		    <version>6.7</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>com.documentum.dfc</groupId>
+		    <artifactId>bpmres</artifactId>
+		    <version>6.7</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>com.documentum.dfc</groupId>
+		    <artifactId>bpmutil</artifactId>
+		    <version>6.7</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>com.documentum.dfc</groupId>
+		    <artifactId>castor-xml</artifactId>
+		    <version>6.7</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>com.documentum.dfc</groupId>
+		    <artifactId>certjFIPS</artifactId>
+		    <version>6.7</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>com.documentum.dfc</groupId>
+		    <artifactId>commons-io</artifactId>
+		    <version>2.5</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>commons-lang</groupId>
+		    <artifactId>commons-lang</artifactId>
+		    <version>2.3</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>com.documentum.dfc</groupId>
+		    <artifactId>commons-jxpath</artifactId>
+		    <version>6.7</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>com.documentum.dfc</groupId>
+		    <artifactId>configservice-api</artifactId>
+		    <version>6.7</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>com.documentum.dfc</groupId>
+		    <artifactId>configservice-impl</artifactId>
+		    <version>6.7</version>
+		</dependency>
+
+		<dependency>
+		    <groupId>com.documentum.dfc</groupId>
+		    <artifactId>jcip-annotations</artifactId>
+		    <version>1.0-1</version>
+		</dependency>
+
+		<dependency>
+		    <groupId>com.documentum.dfc</groupId>
+		    <artifactId>jsafeFIPS</artifactId>
+		    <version>6.7</version>
+		</dependency>
+
+		<dependency>
+		    <groupId>com.documentum.dfc</groupId>
+		    <artifactId>workflow</artifactId>
+		    <version>6.7</version>
+		</dependency>
+		
+	</dependencies>
+	
+	<build>
+		<sourceDirectory>src</sourceDirectory>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.5.1</version>
+				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
